@@ -1,0 +1,156 @@
+{
+   "checksum": "b8736c48b9564b714dbfe84fda2dc935",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13386154861574655",
+            "date_last_used": "0",
+            "guid": "7e178400-3f1a-43d6-88eb-3149f0edb49b",
+            "id": "17",
+            "name": "Lenovo Support",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://support.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13386154861574540",
+            "date_last_used": "0",
+            "guid": "30e4f591-03c7-4ac7-9979-e8730e2612c7",
+            "id": "16",
+            "name": "Lenovo",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13386154861574266",
+            "date_last_used": "0",
+            "guid": "33cf6065-f8fb-407b-81bb-aa9e9f434967",
+            "id": "15",
+            "name": "McAfee",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/lenovo.html",
+            "visit_count": 0
+         }, {
+            "date_added": "13314600072833394",
+            "date_last_used": "13356473551713931",
+            "guid": "f7068d86-72a7-4c03-8062-87096d6014bd",
+            "id": "9",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService",
+            "visit_count": 0
+         }, {
+            "date_added": "13314600072834427",
+            "date_last_used": "0",
+            "guid": "99360090-66e4-438a-8aae-376ba7617d2a",
+            "id": "10",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13363800263640134",
+            "date_last_used": "0",
+            "guid": "f2ca9f83-7e9c-4b0b-b964-d4b4ce2d7017",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Airtel Xstream Play - Airtel TV Online, Live TV Shows, Channels, Watch Movies, Videos Online",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.airtelxstream.in/channel/lionsgate-play/PartnerChannelLionsgatePlay/detail",
+            "visit_count": 0
+         }, {
+            "date_added": "13384014486659986",
+            "date_last_used": "13385496627197489",
+            "guid": "d1734d4e-9541-4371-bffd-9e60544f1d48",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Watch Super Hit Full Movies & Trailers Online on JioHotstar",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.hotstar.com/in/movies?utm_campaign=Non-Stop+Sports%2C+Endless+Entertainment+begin+today&utm_medium=carousel&utm_source=jc#details-overlay",
+            "visit_count": 11
+         }, {
+            "date_added": "13386154808586429",
+            "date_last_used": "0",
+            "guid": "2ffd1b34-6c67-4c12-9029-af5113f1dcaa",
+            "id": "8",
+            "name": "Lenovo Support",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://support.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13386154808586325",
+            "date_last_used": "0",
+            "guid": "a2444abd-9efe-4ff8-9999-ebda762deb74",
+            "id": "7",
+            "name": "Lenovo",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.lenovo.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13386154808586000",
+            "date_last_used": "0",
+            "guid": "3fecff87-7fa9-4462-82e8-53a3c95554b2",
+            "id": "6",
+            "name": "McAfee",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.mcafee.com/consumer/v/browserfav/lenovo.html",
+            "visit_count": 0
+         } ],
+         "date_added": "13386154808379480",
+         "date_last_used": "0",
+         "date_modified": "13386154861574655",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13386154808379482",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13386154808379483",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCHNTSoSVAQAAEgAqGC9lcVFyd0hjSUhvcXJzNUxkYXBoL3c9PUgDoAYMEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQ5MTBlN2Y5LTkxMGQtNTFiMy05Y2M5LThkMmI2Y2VkYjk2MRgAIAAoADDLivO/zTA41Yzzv80wQNWM87/NMEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ3YjY4MGM5Ni1iMjU2LTVlM2EtYTEwMy0wMzM3MmQ4ZGU1YzMYACAAKAAwxorzv80wONiL87/NMEDYi/O/zTBKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrAEICRKnAQoceG0wL051ZndIbTZLQzZwa2JNZzFoQjZPajdJPRIkZjcwNjhkODYtNzJhNy00YzAzLTgwNjItODcwOTZkNjAxNGJkGAAgAigCMLiKqaLYMji1n9re0TBAtfOootgyShwxU2JEQXlxQlI2Wmt4TUhaVlJQcE9zdkJqVW89Wh4iHDlsR3ZRdGVlSG5lSnEyTlJjcTZxT1k5VjRHdz1lmz2FtsI+AmAFEq0BCAwSqAEKHE5RbDZLTU5UbjdtdU9YSFI3aGhtdkVOZ2NsND0SJGQxNzM0ZDRlLTk1NDEtNDM3MS1iZmZkLTllNjA1NDRmMWQ0OBgAIAIoAjC5iqmi2DI4nfrdpdAyQMHzqKLYMkoca05QSS9mRTlUQ2VvanUyTGdkN3JXa0FKdVNrPVofIh35c3NZNmNmSktMY0YwUVl2dkJQYXZWcEZGYVEwPWUkGOCVwj4CYAUSrQEICxKoAQocSkR0U2tPLzR4TDlrL3lwdUtZQ3A0V3IraHRjPRIkZjJjYTlmODMtN2U5Yy00YjBiLWI5NjQtZDRiNGNlMmQ3MDE3GAAgAigCMLuKqaLYMjju6+v+hDJAt/OootgyShwxVkJPbDZBRHkycEsyR3oxKzdnVDhLNzNrZkk9Wh8iHfMrTGtaQ0JudkFSbDBpUVRXQitMNVkyc3RMNDQ9ZavG0WfCPgJgBRKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRjYmZkMjVhOC01Yzg0LTViZDktYWVjMS1iNWRmNjg5MDJlYzUYACAAKAAwxYrzv80wOMmL87/NMEDJi/O/zTBKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASrQEIChKoAQocb09LeW5vNDJxSUkwVEJSU0lBZDc5UTJ4N2k0PRIkOTkzNjAwOTAtNjZlNC00MzhhLThhYWUtMzc2YmE3NjE3ZDJhGAAgAigCMLqKqaLYMjimn9re0TBAtvOootgyShw1R1dtb3Q2ZHdUNGhYNkVWdHN3MWFNVVhzbGs9Wh8iHZw0dmdOVEpYcmlWNVNYRUFxdXQzRk4xZHhXMDQ9ZTj5OTPCPgJgBTAAOAA=",
+   "version": 1
+}
