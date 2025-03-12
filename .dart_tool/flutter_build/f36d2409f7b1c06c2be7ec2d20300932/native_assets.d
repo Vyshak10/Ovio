@@ -1,1 +1,0 @@
- C:\\Users\\vysha\\OneDrive\\Desktop\\healthcare-main\\healthcare-main\\.dart_tool\\flutter_build\\f36d2409f7b1c06c2be7ec2d20300932\\native_assets.yaml: 

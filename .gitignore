@@ -1,3 +1,12 @@
+### Flutter / Dart ###
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+.env
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -27,3 +36,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows OS ###
+Thumbs.db
+ehthumbs.db
+desktop.ini
