@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:healthcare/common/color_extension.dart';
 import './../../common_widget/round_button.dart';
 import 'package:healthcare/view/on_boarding/on_boarding_view.dart';
+
 class StartedView extends StatefulWidget {
   const StartedView({super.key});
 
@@ -46,7 +47,7 @@ class _StartedViewState extends State<StartedView> {
                 ),
               ),
               const Spacer(),
-             //get started button
+              //get started button
               SafeArea(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 15),

@@ -14,14 +14,14 @@ class WelcomeView extends StatefulWidget {
 }
 
 class _WelcomeViewState extends State<WelcomeView> {
-
   @override
   Widget build(BuildContext context) {
     var media = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: TColor.white,
       body: SafeArea(
-        child: SingleChildScrollView( // Added SingleChildScrollView
+        child: SingleChildScrollView(
+          // Added SingleChildScrollView
           child: Container(
             width: media.width,
             padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 25),
@@ -33,7 +33,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                   height: media.width * 0.1,
                 ),
                 Image.asset(
-                  "assets/img/welcome.png",
+                  "assets/img/inphone.png",
                   width: media.width * 0.75,
                   fit: BoxFit.fitWidth,
                 ),
@@ -48,19 +48,21 @@ class _WelcomeViewState extends State<WelcomeView> {
                       fontWeight: FontWeight.w700),
                 ),
                 Text(
-                  "You are all set now, let’s reach your\ngoals together with us",
+                  "embrace your cycle and take control of your health with us",
                   textAlign: TextAlign.center,
                   style: TextStyle(color: TColor.gray, fontSize: 12),
                 ),
-                SizedBox(height: media.width * 0.1), // Added some space before the button
+                SizedBox(
+                    height: media.width *
+                        0.1), // Added some space before the button
                 RoundButton(
-                  title: "Go To Home",
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MainTabView()));
-                  }),
+                    title: "Go To Home",
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const MainTabView()));
+                    }),
               ],
             ),
           ),

@@ -16,48 +16,44 @@ class _OnBoardingViewState extends State<OnBoardingView> {
 
   @override
   void initState() {
-     
     super.initState();
 
     controller.addListener(() {
-        selectPage = controller.page?.round() ?? 0;
+      selectPage = controller.page?.round() ?? 0;
 
-      setState(() {
-        
-      });
+      setState(() {});
     });
   }
 
   List pageArr = [
     {
-      "title": "Track Your Goal",
+      "title": "Welcome to Your Cycle Companion",
       "subtitle":
-          "Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals",
-      "image": "assets/img/on_1.png"
+          "Your cycle, your journey! We're here to help you track and understand your menstrual health effortlessly.",
+      "image": "assets/img/cup.png"
     },
     {
-      "title": "Get Burn",
+      "title": "Set & Track",
       "subtitle":
-          "Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
-      "image": "assets/img/on_2.png"
+          "Every cycle is unique, and so are you! We’ll help you stay informed and empowered.",
+      "image": "assets/img/surf.png"
     },
     {
-      "title": "Eat Well",
+      "title": "Plan Your Life with Ease",
       "subtitle":
-          "Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun",
-      "image": "assets/img/on_3.png"
+          "Self-care starts with understanding your body. Track your cycle, monitor symptoms, and embrace a healthier you!",
+      "image": "assets/img/womenwithsan.png"
     },
     {
-      "title": "Improve Sleep\nQuality",
+      "title": "Predict & Prepare",
       "subtitle":
-          "Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning",
-      "image": "assets/img/on_4.png"
+          "Planning your routine around your cycle? We’ll make it easy for you.",
+      "image": "assets/img/calender.png"
     },
   ];
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: TColor.white,
       body: Stack(
@@ -68,55 +64,58 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               itemCount: pageArr.length,
               itemBuilder: (context, index) {
                 var pObj = pageArr[index] as Map? ?? {};
-                return OnBoardingPage(pObj: pObj) ;
+                return OnBoardingPage(pObj: pObj);
               }),
-
           SizedBox(
             width: 120,
             height: 120,
             child: Stack(
               alignment: Alignment.center,
               children: [
-
                 SizedBox(
                   width: 70,
                   height: 70,
                   child: CircularProgressIndicator(
                     color: TColor.primaryColor1,
-                    value: (selectPage + 1) / 4 ,
+                    value: (selectPage + 1) / 4,
                     strokeWidth: 2,
                   ),
                 ),
-
                 Container(
-                  margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
+                  margin:
+                      const EdgeInsets.symmetric(horizontal: 30, vertical: 30),
                   width: 60,
                   height: 60,
-                  decoration: BoxDecoration(color: TColor.primaryColor1, borderRadius: BorderRadius.circular(35)),
-                  child: IconButton(icon: Icon( Icons.navigate_next, color: TColor.white, ), onPressed: (){
-          
-                      if(selectPage < 3) {
-          
-                         selectPage = selectPage + 1;
+                  decoration: BoxDecoration(
+                      color: TColor.primaryColor1,
+                      borderRadius: BorderRadius.circular(35)),
+                  child: IconButton(
+                    icon: Icon(
+                      Icons.navigate_next,
+                      color: TColor.white,
+                    ),
+                    onPressed: () {
+                      if (selectPage < 3) {
+                        selectPage = selectPage + 1;
 
-                        controller.animateToPage(selectPage, duration: const Duration(milliseconds: 600), curve: Curves.bounceInOut);
-                        
+                        controller.animateToPage(selectPage,
+                            duration: const Duration(milliseconds: 600),
+                            curve: Curves.bounceInOut);
+
                         // controller.jumpToPage(selectPage);
-                        
-                          setState(() {
-                            
-                          });
-          
-                      }else{
+
+                        setState(() {});
+                      } else {
                         // Open Welcome Screen
                         Text("Open Welcome Screen");
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => const SignUpView() ));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const SignUpView()));
                       }
-                      
-                  },),
+                    },
+                  ),
                 ),
-
-                
               ],
             ),
           )
