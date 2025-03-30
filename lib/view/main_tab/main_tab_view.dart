@@ -5,8 +5,6 @@ import './../../common/color_extension.dart';
 import './../home/home_view.dart';
 import './../profile/profile_view.dart';
 
-
-
 class MainTabView extends StatefulWidget {
   const MainTabView({super.key});
 
@@ -16,14 +14,13 @@ class MainTabView extends StatefulWidget {
 
 class _MainTabViewState extends State<MainTabView> {
   int selectTab = 0;
-  final PageStorageBucket pageBucket = PageStorageBucket(); 
+  final PageStorageBucket pageBucket = PageStorageBucket();
   Widget currentTab = const HomeView();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: TColor.white,
       body: PageStorage(bucket: pageBucket, child: currentTab),
-    
       bottomNavigationBar: BottomAppBar(
           child: Container(
         decoration: BoxDecoration(color: TColor.white, boxShadow: const [
@@ -55,15 +52,13 @@ class _MainTabViewState extends State<MainTabView> {
                     setState(() {});
                   }
                 }),
-
-          
             TabButton(
                 icon: "assets/img/profile_tab.png",
                 selectIcon: "assets/img/profile_tab_select.png",
                 isActive: selectTab == 3,
                 onTap: () {
                   selectTab = 3;
-                   currentTab = const ProfileView();
+                  currentTab = const ProfileView();
                   if (mounted) {
                     setState(() {});
                   }

@@ -16,9 +16,10 @@ class SelectView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-                const SizedBox(height: 15,),
-
-                  RoundButton(
+            const SizedBox(
+              height: 15,
+            ),
+            RoundButton(
                 title: "Sleep Tracker",
                 onPressed: () {
                   Navigator.push(
