@@ -29,23 +29,20 @@ class _WelcomeViewState extends State<WelcomeView> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,
               children: [
-                SizedBox(
-                  height: media.width * 0.1,
-                ),
+                SizedBox(height: media.width * 0.1),
                 Image.asset(
                   "assets/img/inphone.png",
                   width: media.width * 0.75,
                   fit: BoxFit.fitWidth,
                 ),
-                SizedBox(
-                  height: media.width * 0.1,
-                ),
+                SizedBox(height: media.width * 0.1),
                 Text(
                   "Welcome, Stefani",
                   style: TextStyle(
-                      color: TColor.black,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w700),
+                    color: TColor.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
                 Text(
                   "embrace your cycle and take control of your health with us",
@@ -53,16 +50,19 @@ class _WelcomeViewState extends State<WelcomeView> {
                   style: TextStyle(color: TColor.gray, fontSize: 12),
                 ),
                 SizedBox(
-                    height: media.width *
-                        0.1), // Added some space before the button
+                  height: media.width * 0.1,
+                ), // Added some space before the button
                 RoundButton(
-                    title: "Go To Home",
-                    onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const MainTabView()));
-                    }),
+                  title: "Go To Home",
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MainTabView(),
+                      ),
+                    );
+                  },
+                ),
               ],
             ),
           ),
